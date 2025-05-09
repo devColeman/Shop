@@ -1,0 +1,26 @@
+{
+  "name": "shop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devColeman/Shop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devColeman/Shop/issues"
+  },
+  "homepage": "https://github.com/devColeman/Shop#readme",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "mongoose": "^8.14.2",
+    "nodemon": "^3.1.10"
+  }
+}

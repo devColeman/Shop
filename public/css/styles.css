@@ -1,0 +1,49 @@
+h1 {
+    color: red;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    color: black;  
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+nav a:hover {
+background-color: rgb(101, 184, 226);
+}
+
+.firstRow, .secondRow {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.firstRow > div, .secondRow > div{
+    border: 1px solid black;
+    background-color: grey;
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.inputForm > label{
+    display: block;
+}
+
+ #send {
+    display: block;
+    margin-top: 10px;
+ }
