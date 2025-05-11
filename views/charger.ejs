@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=, initial-scale=1.0">
+        <title>Shop</title>
+        <link rel="stylesheet" href="css/clickedOn.css">
+    </head>
+    <body>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/product">Product</a>
+            <a href="/cart">Cart 0</a>
+            <a href="/addItems">Add Items</a>
+        </nav>
+        <h1><%= items[1].productName %></h1>
+        <p><%= items[1].price %></p>
+        <p><%= items[1].desc %></p>
+        <img src="<%= items[1].filePath %>" alt="">
+    </body>
+    </html>
+</html>
